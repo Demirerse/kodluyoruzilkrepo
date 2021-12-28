@@ -1,4 +1,4 @@
-<h1>Selim Demirer</h1>
+<h1 id="selim">Selim Demirer</h1>
 
 <!-- açıklama satırı -->
 
@@ -15,3 +15,166 @@
 <p>
     Basketbol, Pc oyunları, kediler
 </p>
+
+<h1>Listeler</h1> 
+<!-- 
+    Sıralı listeler -> 1, 2, 3, ordered list -> ol
+    Sıralı olmayan listeler -> *, *, *, unordered list -> ul
+
+-->
+
+<ol type="I">
+    <li>Liste öğesi 1</li>
+    <li>Liste öğesi 2</li>
+    <li>Liste öğesi 3</li>
+    <li>Diğerleri
+        <ul>
+            <li>Liste öğesi 1</li>
+            <li>Liste öğesi 2</li>
+            <li>Liste öğesi 3</li>
+        </ul>
+    </li>
+    
+</ol>
+
+
+<ul style="list-style-type: circle;">
+    <li>Liste öğesi 1</li>
+    <li>Liste öğesi 2</li>
+    <li>Liste öğesi 3</li>
+</ul>
+
+<h2> Emmet / zen coding</h2>
+
+<!-- 
+    . -> class oluşturur
+    # -> id oluşturur
+    
+ -->
+ <!-- h1+h2+p*4 ile 3 kardeş öğe birlikte oluşturur -->
+ <h1></h1>
+ <h2></h2>
+ <p></p>
+ <p></p>
+ <p></p>
+ <p></p>
+
+ <!-- ul>li*5 içiçe öğe -->
+ <ul>
+     <li></li>
+     <li></li>
+     <li></li>
+     <li></li>
+     <li></li>
+ </ul>
+
+ <!-- ul>li*3^p+h3 öğe içerisinde çıkıp oluşturur  -->
+ <ul>
+     <li></li>
+     <li></li>
+     <li></li>
+ </ul>
+ <p></p>
+ <h3></h3>
+
+ <!-- p>lorem3 -->
+ <p>Lorem, ipsum dolor.</p>
+
+ <!-- ul>li*3>lorem5^^p*2>lorem5^h3>lorem1 -->
+ <ul>
+     <li>Lorem ipsum dolor sit amet.</li>
+     <li>Id rem possimus quae sint!</li>
+     <li>Amet magnam et velit odit.</li>
+ </ul>
+ <p>Lorem ipsum dolor sit amet.</p>
+ <p>Quia sit quibusdam magnam minima.</p>
+ <h3>Lorem.</h3>
+
+ <!-- h3.deneme  -->
+ <h3 class="deneme"></h3>
+
+ <!-- img -->
+<img src="https://picsum.photos/500/300" alt="random pic generator" title="random pic generator">
+<img src="" alt="">
+
+map ve area
+Görselleriniz hyperlink atamanız durumunda görselin tüm alanı link alanı haline dönüşecektir. Görselin herhangi bir yerine tıklanılması durumunda görsel sizi tanımlanan bağlantıya gönderecektir. <img> etiketleri için kullanılan <map> ve <area> etiketleri ile resmin içindeki koordinatlarla belirlediğimiz bir alanı sadece link haline getirebiliriz. Eklediğimiz <area> etiketi kadar belirlenen alanı bir resim üzerinden birçok bağlantıya link verebiliriz.
+
+Örneğin Instagram'da bazı satıcılarda gördüğünüz bir insan fotoğraf üzerinde pantolon ve ayakkabının ürün linklerini ayrı ayrı vermek isterseniz kullanabilirsiniz.
+
+<!-- <html>
+<body>
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+ <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+ <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+ <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+</map>
+</body>
+</html> -->
+
+
+<h2>Linkler ile çalışmak</h2>
+
+<!-- 
+href=""
+
+ID -> bilgisine git
+
+
+ -->
+
+<ul>
+    <li>
+        <a href="https://kodluyoruz.org" target=_blank>Kodluyoruz sayfasına buradan gidilecek</a>
+        <br>
+    </li>
+    <li>
+        <a href="iletisim.html">Iletişim sayfasına git</a>
+        <br>
+    </li>
+    <li>
+        <a href="#selim">go to TOP</a>
+    </li>
+    <li>
+        <a href="mailto:slmdmrr@gmail.com">selim'e mail at</a>
+    </li>
+    <li>
+        <a href="tel:+9054100000000">Telefon aç</a>
+    </li>
+</ul>
+
+
+<hr>
+<hr>
+
+<h1>Ödev 2</h1>
+
+<img src="/kodluyoruzilkrepo/images/IMG_1702.jpeg" alt="sed pix" title="Sed">
+
+<h2>Hobi kültürel things</h2>
+
+<div class="filmler">
+    <ul> <strong>1.Filmler</strong> 
+        <li>SpiderMan</li>
+        <li><a target="_blank" href="https://www.imdb.com/video/vi2949628697?ref_=hm_hp_i_3&listId=ls053181649">Dr.Strange</a> </li>
+        <li>Avengers</li>
+    </ul>
+</div>
+<div class="kitaplar">
+    <ul> <strong>2.Kitaplar</strong> 
+        <li><a target="_blank" href="https://www.goodreads.com/book/show/44767458-dune?from_search=true&from_srp=true&qid=QbFtqTKRkD&rank=1">Dune</a></li>
+        <li>Harry Potter</li>
+        <li>Küçük Prens</li>
+    </ul>
+</div>
+<div class="diziler">
+    <ul> <strong>3.Diziler</strong> 
+        <li>WandaVision</li>
+        <li>Loki</li>
+        <li>Hawkeye</li>
+    </ul>
+</div>
+
+
