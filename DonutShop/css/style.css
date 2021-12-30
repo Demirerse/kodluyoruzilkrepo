@@ -1,0 +1,37 @@
+body {
+    background-color: #F3Eff5;
+}
+
+#header {
+    color: #72b01d;
+    
+}
+
+#header-img{
+    margin-left: 200px;
+}
+
+h2, h4 {
+    color: #3f7d20;
+}
+
+p {
+    background-color: #454955;
+    color: #F3Eff5;
+}
+
+ul {
+    list-style-position:initial;
+    list-style: none;
+
+
+}
+.nav-item {
+    margin-left: 200px;
+
+    text-decoration-style:double;
+    font-size: 24px;
+
+    
+}
+
