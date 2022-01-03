@@ -1,0 +1,44 @@
+/* .body {
+    margin: 0;
+    padding: 0px;
+} */
+
+ .container {
+ width: 1000px;
+height: 1000px;
+padding: 5%;
+margin: 50px auto 0;
+} 
+
+#head-pic {
+    margin: 0 300px;
+}
+
+.table {
+    border: 0px;
+    width: 90%;
+    /* float: left; */
+
+    
+}
+
+.search-bar td {
+    background-color: #EEEEEE;
+    /* float: left; */
+}
+
+#q {
+    size: 60px;
+}
+
+.help-bar-1 {
+    background-color: #7EE5DA;
+}
+
+.help-bar-2 {
+background-color:#70CCC2 ;
+}
+
+.help-bar-3 {
+    background-color: #62B3AA;
+}

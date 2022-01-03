@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #bdc1c6;
+
+}
+
+nav {
+    height: 60;
+    width: 1000;
+    background-color: cornflowerblue;
+    /* display: flex; */
+    align-items: center;
+    padding: 6px;
+    
+}
+.nav ul {
+    float: right;
+    text-decoration-style: none;
+
+}
+
+.nav li {
+    box-sizing: border-box;
+    padding: 0 4px;
+    justify-content: flex-end;
+    vertical-align: middle;
+    color: white;
+    
+    
+}
+
+.main-picture {
+    margin-top: 200px;
+}
+
+
+
+.footer{
+    margin-top: 300px;
+    background-color: dimgray;
+}
