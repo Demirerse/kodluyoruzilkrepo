@@ -1,0 +1,9 @@
+body {
+    background-color: #F3F2EF;
+    color: rgb(71, 71, 71);
+}
+
+.input-group input {
+    height: 34px;
+    max-width: 280px;
+}
